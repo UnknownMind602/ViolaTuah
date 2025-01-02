@@ -3,6 +3,8 @@
 
 Modern LEVEL5 modding made easy!
 
+This is a fork that both serves to be a joke and to add a removed feature to the newest source.
+
 ## Special thanks to
 **onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing ViolaTuah extensively! As well as **UnknownMind603** for allowing Hawk Tuah to be added!
 
