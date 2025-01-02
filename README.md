@@ -1,4 +1,4 @@
-# 💜Viola 💜 
+# 💜ViolaTuah 💜 
 *Version 1.3.0*
 
 Modern LEVEL5 modding made easy!
@@ -6,15 +6,15 @@ Modern LEVEL5 modding made easy!
 ## Special thanks to
 **onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing Viola extensively!
 
-## What is Viola?
+## What is ViolaTuah?
 Viola is an all-in-one tool to manage, create, and analyze modern LEVEL5 games. You see, these newer LEVEL5 games all use various CPK files to store the game's files, and they keep track of which file is in which CPK in the cpk_list.cfg.bin file, along with their sizes.
 
-## Why is Viola even needed?
+## Why is ViolaTuah even needed?
 Viola can dump these pesky, CPK-filled filesystems into clean and coherent filesystems, and instead of distributing the entire CPK you are editing every time you want to release a mod - You can pack your mod with Viola and only distribute the files you edited - no CPKS involved! This results in a better development experience and a **massive file size decrease!**
 
 ## Quickstart
 
-### Creating a mod using Viola - from 0 to a playable
+### Creating a mod using ViolaTuah - from 0 to a playable
 This section will guide you creating a mod from 0 to a finished sample mod with screenshots and explanations. If you have any questions at all, please visit the [Yo-kai Watch Modding Discord Server](https://discord.gg/N4bn5XRWdK). This guide is going to be showcasing using the GUI version, however, you can follow along using the CLI version if you'd like.
 
 ### 1. Getting your game files
@@ -43,16 +43,16 @@ After doing so, an explorer window will open asking you to open the folder you w
 
 ![img](https://i.imgur.com/f37P6Ea.png)
 
-After that, Viola will open yet another explorer window, this time asking you where you want to put your dumped output. You can create a new folder anywhere you'd like, just make sure you remember where it is!
+After that, ViolaTuah will open yet another explorer window, this time asking you where you want to put your dumped output. You can create a new folder anywhere you'd like, just make sure you remember where it is!
 
-Viola will now dump your game files. This may take a few minutes, so do not panic if it takes a while!
+ViolaTuah will now dump your game files. This may take a few minutes, so do not panic if it takes a while!
 
 ![img](https://i.imgur.com/hbSnXJf.png)
 
 ### 4. Editing and injecting your edited files
 I'm not going to go into detail on how to mod specific stuff, there are many guides out there for that. For this example, I'm going to showcase injecting a simple texture I already edited.
 
-For this example, I decided to edit the `data/nx/chr/c00050010/c00050010.g4tx` file in Yo-kai Watch 4 (Taken from our dumped game files, obviously). As previously mentioned, I'm not gonna teach you how to edit these files, there are plenty of guides out there. In order to inject this file into the game using Viola, we need to create a matching folder structure for it.
+For this example, I decided to edit the `data/nx/chr/c00050010/c00050010.g4tx` file in Yo-kai Watch 4 (Taken from our dumped game files, obviously). As previously mentioned, I'm not gonna teach you how to edit these files, there are plenty of guides out there. In order to inject this file into the game using ViolaTuah, we need to create a matching folder structure for it.
 
 This essentially means replicating the path leading to the file in a completely seperate folder. For example, this could be our folder structure for this mod:
 ```
@@ -67,21 +67,21 @@ This essentially means replicating the path leading to the file in a completely 
 You can include as many edited files as you'd like in this folder structure we created. Now, time to pack the mod and inject the files!
 
 ### 5. Packing our mod
-To get started, Select the `Pack` option in Viola's main menu.
+To get started, Select the `Pack` option in ViolaTuah's main menu.
 
 ![img](https://i.imgur.com/crnODkx.png)
 
-Viola will ask you the following. Say **Yes**.
+ViolaTuah will ask you the following. Say **Yes**.
 
 ![img](https://i.imgur.com/LEgfOsJ.png)
 
 Select the Cpk_List file we backed up in Step 2.
 
-After doing so, Viola will prompt you to choose the target platform. Choose your target platform.
+After doing so, ViolaTuah will prompt you to choose the target platform. Choose your target platform.
 
 ![img](https://i.imgur.com/HxEsy4p.png)
 
-Viola will then ask you to select the folder you want to pack. For me, that would be `MyMod`, from the previous step.
+ViolaTuah will then ask you to select the folder you want to pack. For me, that would be `MyMod`, from the previous step.
 
 ![img](https://i.imgur.com/SF4HMz8.png)
 
@@ -100,7 +100,7 @@ Traverse into your output folder and copy the `data` folder into the game's inst
 
 --------------
 
-Congrats! You've created your first mod using Viola!
+Congrats! You've created your first mod using ViolaTuah!
 
 ![img](https://i.imgur.com/pgULNjv.png)
 
@@ -108,7 +108,7 @@ Congrats! You've created your first mod using Viola!
 If you are modding any supported LEVEL5 PC game, you may have noticed that the Criware files (AWB, ACB, etc) are **encrypted**. Viola already decrypts the CPKs for you when dumping, but the other files need to be decrypted manually. In this section, I'll show you how to decrypt these files and how to re-encrypt them later using Viola!
 
 ### 1. Decrypting your file
-To get started, open Viola and click `Decrypt Criware`.
+To get started, open ViolaTuah and click `Decrypt Criware`.
 
 ![img](https://i.imgur.com/rNqgSQy.png)
 
