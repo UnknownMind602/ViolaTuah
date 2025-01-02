@@ -4,13 +4,13 @@
 Modern LEVEL5 modding made easy!
 
 ## Special thanks to
-**onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing Viola extensively!
+**onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing ViolaTuah extensively!
 
 ## What is ViolaTuah?
-Viola is an all-in-one tool to manage, create, and analyze modern LEVEL5 games. You see, these newer LEVEL5 games all use various CPK files to store the game's files, and they keep track of which file is in which CPK in the cpk_list.cfg.bin file, along with their sizes.
+ViolaTuah is an all-in-one tool to manage, create, and analyze modern LEVEL5 games. You see, these newer LEVEL5 games all use various CPK files to store the game's files, and they keep track of which file is in which CPK in the cpk_list.cfg.bin file, along with their sizes.
 
 ## Why is ViolaTuah even needed?
-Viola can dump these pesky, CPK-filled filesystems into clean and coherent filesystems, and instead of distributing the entire CPK you are editing every time you want to release a mod - You can pack your mod with Viola and only distribute the files you edited - no CPKS involved! This results in a better development experience and a **massive file size decrease!**
+ViolaTuah can dump these pesky, CPK-filled filesystems into clean and coherent filesystems, and instead of distributing the entire CPK you are editing every time you want to release a mod - You can pack your mod with ViolaTuah and only distribute the files you edited - no CPKS involved! This results in a better development experience and a **massive file size decrease!**
 
 ## Quickstart
 
@@ -33,9 +33,9 @@ Simply find the `data` folder in the game's directory and copy it to a fresh fol
 ### 2. Backing up your Cpk_List
 In your game files, you can find `cpk_list.cfg.bin` in the data folder. Copy it to a safe place and remove it from the game files, we'll need it later!
 ### 3. Dumping your game files
-As you may have noticed when browsing through the game files, many of the files are `.CPK` files, archive files that contain other files. In order to get a completely clean game files folder with all of the CPKs extracted, we are going to use Viola's `dump` function.
+As you may have noticed when browsing through the game files, many of the files are `.CPK` files, archive files that contain other files. In order to get a completely clean game files folder with all of the CPKs extracted, we are going to use ViolaTuah's `dump` function.
 
-To get started, Click `Dump` in Viola's main menu.
+To get started, Click `Dump` in ViolaTuah's main menu.
 
 ![img](https://i.imgur.com/wksNdxq.png)
 
@@ -105,7 +105,7 @@ Congrats! You've created your first mod using ViolaTuah!
 ![img](https://i.imgur.com/pgULNjv.png)
 
 ## For PC modders - How can you edit the encrypted Criware files?
-If you are modding any supported LEVEL5 PC game, you may have noticed that the Criware files (AWB, ACB, etc) are **encrypted**. Viola already decrypts the CPKs for you when dumping, but the other files need to be decrypted manually. In this section, I'll show you how to decrypt these files and how to re-encrypt them later using Viola!
+If you are modding any supported LEVEL5 PC game, you may have noticed that the Criware files (AWB, ACB, etc) are **encrypted**. ViolaTuah already decrypts the CPKs for you when dumping, but the other files need to be decrypted manually. In this section, I'll show you how to decrypt these files and how to re-encrypt them later using ViolaTuah!
 
 ### 1. Decrypting your file
 To get started, open ViolaTuah and click `Decrypt Criware`.
@@ -118,14 +118,14 @@ An explorer window will open and you'll be prompted to select the file you want 
 
 You will now be asked to choose where to put the output file. This can be wherever you'd like, just remember where it is.
 
-After waiting a few moments, your decrypted file will appear in the folder and the following will be written in the Viola console:
+After waiting a few moments, your decrypted file will appear in the folder and the following will be written in the ViolaTuah console:
 
 ![img](https://i.imgur.com/NwJmPME.png)
 
- ## **REMEMBER THE KEY VIOLA GIVES YOU. IF YOU FORGET IT, YOU WONT BE ABLE TO RE-ENCRYPT LATER!**
+ ## **REMEMBER THE KEY ViolaTuah GIVES YOU. IF YOU FORGET IT, YOU WONT BE ABLE TO RE-ENCRYPT LATER!**
 
 ### 2. Re-encrypting your file
-So after editing you decrypted file, how would you encrypt it? Well, to get started, Click the `Encrypt Criware` option in Viola's main menu.
+So after editing you decrypted file, how would you encrypt it? Well, to get started, Click the `Encrypt Criware` option in ViolaTuah's main menu.
 
 ![img](https://i.imgur.com/FsVQfH1.png)
 
@@ -142,9 +142,9 @@ After that, you'll be prompted to select the location of your new encrypted file
 **Congrats! You've just edited your first encrypted Criware file!**
 
 ### How to merge multiple mods
-But wait - you may have seen some awesome mods made with Viola you want to try out, but putting all of the mods together doesn't work! Here's you how can fix it:
+But wait - you may have seen some awesome mods made with ViolaTuah you want to try out, but putting all of the mods together doesn't work! Here's you how can fix it:
 
-To get started, click the `Merge`  option in Viola's main menu.
+To get started, click the `Merge`  option in ViolaTuah's main menu.
 
 ![img](https://i.imgur.com/aoWSZqz.png)
 
@@ -156,7 +156,7 @@ You'll now be prompted to select all the mods you want to merge, in order of mos
 
 After selecting your mods, you'll be asked to select an output folder to put your merged mod in. 
 
-Now, you'll be asked to select your vanilla cpk_list file. You can learn how to get that [here](https://github.com/SuperTavor/Viola?tab=readme-ov-file#2-backing-up-your-cpk_list).
+Now, you'll be asked to select your vanilla cpk_list file. You can learn how to get that [here](https://github.com/SuperTavor/ViolaTuah?tab=readme-ov-file#2-backing-up-your-cpk_list).
 
 After that, you'll have to select your target platform. Please do so.
 
@@ -169,4 +169,4 @@ If you see this, it means all went well!
 
 ![img](https://i.imgur.com/bPHa3M1.png)
 
-**Congrats! You've just merged your mods. You can install your mod using [this](https://github.com/SuperTavor/Viola?tab=readme-ov-file#2-backing-up-your-cpk_list) part of the guide.**
+**Congrats! You've just merged your mods. You can install your mod using [this](https://github.com/SuperTavor/ViolaTuah?tab=readme-ov-file#2-backing-up-your-cpk_list) part of the guide.**
