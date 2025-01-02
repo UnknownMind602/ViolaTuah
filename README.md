@@ -4,7 +4,7 @@
 Modern LEVEL5 modding made easy!
 
 ## Special thanks to
-**onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing ViolaTuah extensively!
+**onepiecefreak3** for helping me, **Tinifan** for allowing me to use his CfgBin library, and finally, **Light** and **Plasma** for testing ViolaTuah extensively! As well as **UnknownMind603** for allowing Hawk Tuah to be added!
 
 ## What is ViolaTuah?
 ViolaTuah is an all-in-one tool to manage, create, and analyze modern LEVEL5 games. You see, these newer LEVEL5 games all use various CPK files to store the game's files, and they keep track of which file is in which CPK in the cpk_list.cfg.bin file, along with their sizes.
